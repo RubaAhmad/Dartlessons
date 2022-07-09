@@ -13,9 +13,10 @@ class CarType {
       required this.name,
       required this.aName,
       this.deleted});
+
   @override
   String toString() {
-    return 'CarType(id: $id, name: $name)';
+    return 'CarType(id: $id, name: $name, aName: $aName, deleted: $deleted)';
   }
 }
 
